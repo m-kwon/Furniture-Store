@@ -1,0 +1,98 @@
+@import '../../variables';
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin: 1rem 1.5rem;
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    background-color: $light-gray;
+    height: 1px;
+    bottom: -1rem;
+  }
+}
+
+.title {
+  font-family: 'Roboto Slab', serif;
+  margin-right: 2rem;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.nav {
+  width: 100%;
+}
+
+.navUl {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navLinks {
+  display: flex;
+  list-style: none;
+}
+
+.navLinks li {
+  position: relative;
+  margin-left: 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    background-color: $black;
+    height: 2px;
+    bottom: -5px;
+    transform: scaleX(0%);
+    transition: all 0.3s;
+  }
+
+  &:hover {
+    &:before {
+      transform: scaleX(100%);
+    }
+  }
+}
+
+.userPopout {
+  position: absolute;
+  background-color: $white;
+  right: 0;
+  padding: 1.5rem;
+  cursor: default;
+  display: flex;
+  flex-direction: column;
+
+  & button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: $dark-gray;
+    color: $white;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: $black;
+    }
+  }
+
+  & span {
+    font-weight: 700;
+  }
+}

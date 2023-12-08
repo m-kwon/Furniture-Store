@@ -1,0 +1,129 @@
+@import '../../variables';
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-family: inherit;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+
+.page {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 3rem 1.5rem;
+  gap: 1rem;
+}
+
+.img {
+  width: 100%;
+}
+
+.productTitle {
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.productDescription {
+  color: $medium-gray;
+  margin-bottom: 1rem;
+}
+
+.productPrice {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.quantity {
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+
+.quantityBtn {
+  width: 37px;
+  height: 37px;
+  background: #EEEEEE;
+
+  &:hover {
+    background: #c9c9c9;
+  }
+}
+
+.quantityInput {
+  width: 37px;
+  height: 37px;
+  outline: none;
+  border: 1px solid $black;
+  text-align: center;
+  font-family: inherit;
+  font-size: 16px;
+}
+
+.btn {
+  background: $dark-gray;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 0.5rem;
+  width: 100%;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: $black;
+  }
+}
+
+.detailsTitle {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 1.5rem;
+  cursor: pointer;
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    background-color: $light-gray;
+    height: 1px;
+    top: -0.5rem;
+  }
+}
+
+.detailsText {
+  margin-top: 0.5rem;
+  position: relative;
+  color: $medium-gray;
+  overflow: hidden;
+  transition: all 0.5s ease-out;
+
+  &:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    background-color: $light-gray;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+.detailsShown {
+  max-height: 150px;
+  position: relative;
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.detailsHidden {
+  max-height: 1px;
+}
