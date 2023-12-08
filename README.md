@@ -1,4 +1,9 @@
 # Furniture-Store
 A front end application to simulate an online storefront using React, routing, and CSS modules
 
-[Live link](https://m-kwon.github.io/Furniture-Store)
+[Live link](https://samplefurniturestore.netlify.app)
+
+## Features to add
+- Mobile friendly
+- Fix Firebase / Google auth
+- Search feature
