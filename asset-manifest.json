@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9f2aed20.css",
+    "main.js": "/static/js/main.a3fddbfb.js",
+    "static/media/materia.jpg": "/static/media/materia.c460fa77029838c6eb2b.jpg",
+    "static/media/steedy.jpg": "/static/media/steedy.d830d0ac5fd6626d47ff.jpg",
+    "static/media/ondeo.jpg": "/static/media/ondeo.2d9b9d73d4331150f4de.jpg",
+    "static/media/virtual.jpg": "/static/media/virtual.30b4021f3fbe97854a21.jpg",
+    "static/media/kiki.jpg": "/static/media/kiki.9d3c5ff1218b617cbbc0.jpg",
+    "static/media/aulani.jpg": "/static/media/aulani.a54b18ddc67de109ba83.jpg",
+    "static/media/bg.jpg": "/static/media/bg.a54b18ddc67de109ba83.jpg",
+    "static/media/avante.jpg": "/static/media/avante.04a0d4bdaf465bfd781e.jpg",
+    "static/media/driftwood.jpg": "/static/media/driftwood.b183894fc0d90413dda7.jpg",
+    "static/media/mentor.jpg": "/static/media/mentor.446eb2ec86c742b70619.jpg",
+    "static/media/blaise.jpg": "/static/media/blaise.0790475bb108d5a84f84.jpg",
+    "static/media/lintel.jpg": "/static/media/lintel.17e779e366b975b2105d.jpg",
+    "static/media/viva.jpg": "/static/media/viva.9813b714035f47fa01ca.jpg",
+    "static/media/fashio.jpg": "/static/media/fashio.2011dfcc3a9b5e8e2c03.jpg",
+    "index.html": "/index.html",
+    "main.9f2aed20.css.map": "/static/css/main.9f2aed20.css.map",
+    "main.a3fddbfb.js.map": "/static/js/main.a3fddbfb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f2aed20.css",
+    "static/js/main.a3fddbfb.js"
+  ]
+}
